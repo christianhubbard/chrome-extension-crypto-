@@ -1,0 +1,4 @@
+"default_icon": {
+        "16":"logo_v1.png",
+        "32":"logo_v1.png"
+      }

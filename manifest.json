@@ -1,0 +1,24 @@
+{
+    "name": "Crypto Moves",
+    "version": "1.0",
+    "description": "Alerts to big crypto moves",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Click to see the latest Crypto prices",
+      "default_icon": {
+        "16":"logo_v1.png",
+        "32":"logo_v1.png"
+      }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true   
+}
+}
+
+
+
+
+
+ 

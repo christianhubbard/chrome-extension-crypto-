@@ -1,4 +1,22 @@
 .body {
-  height: 500px;
-  width: 300px;
+  height: 400px;
+  width: 240px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.eachCoin {
+  font-size: 16px;
+  page-break-after: always;
+}
+
+.price {
+  float: right;
+  display: inline-block;
+}
+.crypto {
+  display: inline-block;
 }

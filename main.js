@@ -33,8 +33,10 @@ const renderCoins = data => {
     const roundedPrice = Math.round(price * 100) / 100;
     main.className = 'coinDiv';
     main.innerHTML = `
-                <div class = "columns"><div class="notification"><div class= "column" align="left">${coin.rank}: ${coin.name}</div>
-                <div class = "column" align="right">${roundedPrice}</div></div></div>
+                  <div class= "eachCoin">
+                    <div class="crypto">${coin.rank}: ${coin.name}</div>
+                    <div class = "price">$${roundedPrice}</div>
+                  </div><br />
             `;
 
     content.appendChild(main);
